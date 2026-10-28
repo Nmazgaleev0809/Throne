@@ -1,0 +1,51 @@
+# Secrets and local env
+.env
+.env.*
+!.env.example
+!.env*.example
+*.pem
+*.key
+*.p12
+id_rsa
+id_ed25519
+secrets/
+**/mnemonic.txt
+**/private_key*
+
+# Backend
+backend/throne.db
+backend/**/*.db
+backend/**/__pycache__/
+**/__pycache__/
+*.py[cod]
+backend/.venv/
+backend/venv/
+.venv/
+venv/
+backend/data/images/
+backend/data/
+
+# Foundry
+contracts/cache/
+contracts/out/
+contracts/broadcast/
+contracts/.gas-snapshot
+contracts/lcov.info
+lcov.info
+coverage/
+cache/
+out/
+broadcast/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+node_modules/
+dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

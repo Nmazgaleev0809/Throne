@@ -1,0 +1,8 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+sqlalchemy>=2.0
+pydantic-settings>=2.2
+web3>=7,<8
+pillow>=10.3
+python-telegram-bot>=21,<22

@@ -1,0 +1,15 @@
+# One term per line. Matching is done on a "skeleton" of the message:
+# lowercased, accents stripped, common leetspeak swapped (0->o, 1->i, 3->e, 4->a, 5->s, 7->t, @->a, $->s),
+# punctuation/spaces removed, repeated letters collapsed. Put terms in plain form.
+# Latin and Cyrillic are both supported. Avoid very short terms: they match inside innocent words.
+#
+# Starter scam / phishing phrases (add your own slurs, hate terms, doxxing patterns, etc.):
+seed phrase
+recovery phrase
+private key
+send me usdt
+send me crypto
+double your
+free airdrop
+airdrop claim
+guaranteed profit
